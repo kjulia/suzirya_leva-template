@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet"href="..css/styles.css">
+  <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="../js/responsiveCarousel.min.js"></script>
+</head>
+
+<body>
+  <div class="w">
+    <div class="caption">Наши собаки</div>
+    
+    <nav class="slidernav">
+      <div id="navbtns" class="clearfix">
+        <a href="#" class="previous"><img src="../img/controls/left.png"></a>
+        <a href="#" class="next"><img src="../img/controls/right.png"></a>
+      </div>
+    </nav>
+    
+    <div class="crsl-items" data-navigation="navbtns">
+      <div class="crsl-wrap">
+        <div class="crsl-item">
+          <div class="thumbnail">
+            <img src="../img/gallery/uraniya.png" alt="dog">
+          </div>          
+        </div><!-- post #1 -->
+        
+        <div class="crsl-item">
+          <div class="thumbnail">
+            <img src="../img/gallery/avtoritet.png" alt="dog">
+          </div>
+        </div><!-- post #2 -->        
+        <div class="crsl-item">
+          <div class="thumbnail">
+            <img src="../img/gallery/aristocrat.png" alt="dog">
+          </div>
+        </div><!-- post #3 -->
+        
+        <div class="crsl-item">
+          <div class="thumbnail">
+            <img src="../img/gallery/bozhena.png" alt="dog">
+          </div>
+        </div><!-- post #4 -->
+        
+      </div><!-- @end .crsl-wrap -->
+    </div><!-- @end .crsl-items -->
+    
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('.crsl-items').carousel({
+    visible: 3,
+    itemMinWidth: 180,
+    itemEqualHeight: 370,
+    itemMargin: 9,
+  });
+  
+  $("a[href=#]").on('click', function(e) {
+    e.preventDefault();
+  });
+});
+</script>
+</body>
+</html>
