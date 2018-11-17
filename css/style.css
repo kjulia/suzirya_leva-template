@@ -6,14 +6,16 @@
   url('fonts/ProximaNova-Semibold.ttf') format('truetype'),
   url('fonts/ProximaNova-Semibold.svg#webfont') format('svg'); }
 body {
-  width: 100%;
-  max-width: 1440px;
-  max-height: 900px;
-  margin-left:auto;
-  margin-right:auto; }
-.container {
+  width: 100%; }
+.container-fluid {
+  width: 100vw;
   background: url('../img/backgrounds/background.jpg') no-repeat;
-  background-size: cover;}
+  background-size: cover; }
+.container {
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 1440px;
+  max-height: 900px; }
 .header {
   height: 10%; 
   width: 100%; 
@@ -22,7 +24,7 @@ body {
   float: left;
   margin-top: 1.11%;
   margin-left: 1.39%;
-  height: 67px;
+  height: 67px; background-attachment: fixed;
   width: 58px }
 .header-instagram {
   height: 24px;
@@ -125,11 +127,18 @@ li a {
 .content__row {
   display: flex;
   flex-wrap: wrap; }
-.content-item {
+.content-itemleon {
   width: 50%;
   height: 100%;
   flex-grow: 1; }
-.content-item > div {
+.content-itembrt {
+  width: 50%;
+  height: 100%;
+  flex-grow: 1; }
+.content-itemleon > div {
+  background-color: #1b1715;
+  overflow: hidden; }
+.content-itembrt > div {
   background-color: #100d0b;
   overflow: hidden; }
 .content-text {
@@ -181,8 +190,14 @@ li a {
   padding-left: 7px;
   width: 13px;
   height: 13px; }
+.container-fluid1 {
+  background: url('../img/backgrounds/footprint.svg') top center  no-repeat;
+}
 .about {
-  background: url('../img/backgrounds/footprint.svg') top center  no-repeat; }
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 1440px;
+  max-height: 900px; }
 .head {
   padding-top: 100px;
   padding-left: 425px;
@@ -215,6 +230,10 @@ li a {
   border-radius: 7px;
   overflow: hidden; }
 .w {
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 1440px;
+  max-height: 900px; 
   display: block; 
   font-family: "Proxima Nova";
   font-size: 56px; }
@@ -249,8 +268,12 @@ li a {
   display: inline-block;
   margin-right: 8px;
   text-decoration: none; }
+.container-fluid3 {
+  background-color: #1c1816; }
 .feedback {
- background-color: #1c1816; }
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 1440px; }
 .info {
   border-bottom: 1px solid rgba(255,255,255, .1);
   height: 780px; }
@@ -355,6 +378,14 @@ textarea {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.8px; }
+::-webkit-input-placeholder {
+  text-indent: 8px;}
+::-moz-placeholder {
+  text-indent: 8px; }
+:-moz-placeholder {
+  text-indent: 8px; }
+:-ms-input-placeholder {
+  text-indent: 8px; }
 footer {
   border-top: 1px solid rgba(255,255,255, .1); }
 .bottom-logo {
