@@ -135,11 +135,11 @@ li a {
   width: 50%;
   height: 100%;
   flex-grow: 1; }
-.content-itemleon > div {
-  background-color: #1b1715;
+.content-itemleon > div > img {
+  width: 100%;
   overflow: hidden; }
-.content-itembrt > div {
-  background-color: #100d0b;
+.content-itembrt > div > img {
+   width: 100%;
   overflow: hidden; }
 .content-text {
   width: 50%; 
@@ -159,7 +159,8 @@ li a {
   text-transform: uppercase;
   letter-spacing: 0.9px; }
 .description {
-  padding-left: 60px; }
+  padding-left: 60px; 
+  overflow: hidden;}
 .description h1 {
   height: 117px;
   color: #181412;
@@ -179,6 +180,7 @@ li a {
   padding-top: 75px; 
   padding-left: 60px;}
 .btn {
+  cursor: pointer;
   font-family: "Proxima Nova";
   font-size: 16px;
   font-weight: 400;
@@ -191,8 +193,7 @@ li a {
   width: 13px;
   height: 13px; }
 .container-fluid1 {
-  background: url('../img/backgrounds/footprint.svg') top center  no-repeat;
-}
+  background: url('../img/backgrounds/footprint.svg') top center  no-repeat; }
 .about {
   margin-left:auto;
   margin-right:auto;
@@ -227,7 +228,6 @@ li a {
   line-height: 25px;
   height: 160px;
   width: 339px;
-  border-radius: 7px;
   overflow: hidden; }
 .w {
   margin-left:auto;
