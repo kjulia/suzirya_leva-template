@@ -296,6 +296,15 @@
   letter-spacing: 0.24px; }
 .tlgrm {
   padding-top: 65px; }
+.adress {
+  margin-top: 80px;
+  font-family: "Proxima Nova";
+  width: 50%;
+  height: 100%;
+  flex-grow: 1; }
+.adress > p {
+  height: 16px;
+  padding-top: 10px; }
 .info-feedback {
   padding-top: 80px;
   font-family: "Proxima Nova";
