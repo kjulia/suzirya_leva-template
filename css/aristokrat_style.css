@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/ProximaNova-Semibold.eot');
+  src: url('fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova-Semibold.woff') format('woff'),
+  url('fonts/ProximaNova-Semibold.ttf') format('truetype'),
+  url('fonts/ProximaNova-Semibold.svg#webfont') format('svg'); }
+
+.header {
+  height: 10%; 
+  border-bottom: 1px solid rgba(0, 0, 0, .12); }

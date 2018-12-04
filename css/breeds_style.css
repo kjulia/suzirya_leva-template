@@ -5,7 +5,26 @@
   url('fonts/ProximaNova-Semibold.woff') format('woff'),
   url('fonts/ProximaNova-Semibold.ttf') format('truetype'),
   url('fonts/ProximaNova-Semibold.svg#webfont') format('svg'); }
-
+  
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1816;
+  z-index: 3; 
+  transition: 1s all; 
+  opacity: 1 
+  visibility: visible; }
+.loader  { 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%); }
+.done {
+  opacity: 0;
+  visibility: hidden; }
 .container-fluid {
   background: url('../img/backgrounds/brt_background.jpg');
   background-size: cover;
