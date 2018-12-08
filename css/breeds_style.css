@@ -14,7 +14,7 @@
   height: 100%;
   background: #1c1816;
   z-index: 3; 
-  transition: 1s all; 
+  transition: .5s all; 
   opacity: 1 
   visibility: visible; }
 .loader  { 
@@ -235,7 +235,8 @@
   width: 345px;
   float: right; }
 .container-fluid2 {
-  background-color: #1c1816; 
+  background-color: #1c1816;
+  background-size: cover; 
   width: 100vw; }
 .feedback {
   margin-left:auto;
@@ -296,15 +297,6 @@
   letter-spacing: 0.24px; }
 .tlgrm {
   padding-top: 65px; }
-.adress {
-  margin-top: 80px;
-  font-family: "Proxima Nova";
-  width: 50%;
-  height: 100%;
-  flex-grow: 1; }
-.adress > p {
-  height: 16px;
-  padding-top: 10px; }
 .info-feedback {
   padding-top: 80px;
   font-family: "Proxima Nova";
