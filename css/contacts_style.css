@@ -41,7 +41,8 @@
   float: left;
   margin-top: 1.11%;
   margin-left: 1.39%;
-  height: 67px; background-attachment: fixed;
+  height: 67px; 
+  background-attachment: fixed;
   width: 58px }
 .header-instagram {
   height: 24px;
@@ -72,7 +73,7 @@
   border-bottom: 1px solid rgba(255,255,255, .1);
   height: 780px; }
 .info__row {
-  padding-left: 100px;
+  padding-left: 154px;
   display: flex;
   flex-wrap: wrap; }
 .info-data {
@@ -93,8 +94,7 @@
   line-height: 41px;
   letter-spacing: -0.56px; }
 .contacts {
-  width: 632px;
-  background-color: magenta;
+  width: 590px;
   padding-top: 65px; }
 h4 {
   width: 191px;
@@ -107,26 +107,27 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.9px; }
 .number {
-  float: left;
-  background-color: orange; }
-.number > div {
-  overflow: hidden; }
+  float: left; }
+.block {
+  padding-top: 5px;}
 .links {
-  background-color: gray;
   float: right; }
 .links > div {
   overflow: hidden; }
 .item {
   color: #ffffff;
   font-family: "Proxima Nova";
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 30px;
   letter-spacing: 0.24px; }
+.networks {
+  padding-top: 38px; }
 .tlgrm {
   padding-top: 65px; }
 .adress {
-  margin-top: 100px;
+  padding-top: 65px;
+  padding-left: 0.01px;
   font-family: "Proxima Nova";
   width: 50%;
   height: 100%;
@@ -150,3 +151,4 @@ footer {
   letter-spacing: 0.16px;
   padding-bottom: 12px; 
   padding-left: 540px; }
+
