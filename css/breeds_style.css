@@ -216,6 +216,36 @@ li a {
   width: 48px;
   height: 1px;
   background-color: #a0a0a0; }
+.progress {
+  padding-left: 63px;
+  width: 500px; 
+  display: inline-flex; }
+button {
+  background-color: #fff;
+  border: none; 
+  cursor: pointer; }
+#myProgress {
+  margin-top: 25px;
+  margin-left: 10px;
+  width: 307px;
+  height: 2px;
+  background-color: #e5e5e5; }
+#myBar {
+  width: 25%;
+  height: 2px;
+  background-color: #b18c75;
+  color: white; }
+.count {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 48px;
+  height: 23px;
+  color: #b9b9b9;
+  font-family: "Proxima Nova";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -3.2px; }
 .fluid_about {
   background: url('../img/backgrounds/brt_white.jpg') no-repeat;
   background-size: cover;
